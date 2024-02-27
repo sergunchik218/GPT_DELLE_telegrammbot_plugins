@@ -1,0 +1,20 @@
+# deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chat-gpt-telegram-bot
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: chat-gpt-telegram-bot
+  template:
+    metadata:
+      labels:
+        app: chat-gpt-telegram-bot
+    spec:
+      containers:
+      - name: chat-gpt-telegram-bot
+        image: chat_gpt_telegram:latest
+        ports:
+        - containerPort: 80
