@@ -4,6 +4,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+      image: chat_gpt_telegram:latest
+    container_name: febrari_GPTbot
     volumes:
       - .:/app
     restart: unless-stopped
+
