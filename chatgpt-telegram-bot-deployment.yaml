@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chatgpt-telegram-bot
+spec:
+  replicas: 1  # Количество реплик вашего приложения
+  selector:
+    matchLabels:
+      app: chatgpt-telegram-bot
+  template:
+    metadata:
+      labels:
+        app: chatgpt-telegram-bot
+    spec:
+      containers:
+      - name: chatgpt-telegram-bot
+        image: chatgpt-telegram-bot:latest  # Убедитесь, что имя образа соответствует вашему локальному или удаленному образу
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 80  # Порт, на котором работает ваше приложение внутри контейнера
+
