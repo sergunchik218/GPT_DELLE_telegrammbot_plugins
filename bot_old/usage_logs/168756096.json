@@ -1,0 +1,1 @@
+{"user_name": "@Baykalspb", "current_cost": {"day": 0.02, "month": 0.040482000000000004, "all_time": 0.040482000000000004, "last_update": "2024-02-07"}, "usage_history": {"chat_tokens": {"2024-02-06": 241}, "transcription_seconds": {}, "number_images": {"2024-02-06": [0, 0, 1], "2024-02-07": [0, 0, 1]}, "tts_characters": {"tts-1": {"2024-02-06": 27}}, "vision_tokens": {}}}
