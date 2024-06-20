@@ -19,8 +19,7 @@
 - [x] Получение статистики использования личных токенов с помощью команды `/stats` - от [@AlexHTW](https://github.com/AlexHTW)
 - [x] Бюджеты пользователей и гостей - от [@AlexHTW](https://github.com/AlexHTW)
 - [x] Поддержка потоковой передачи данных
-- [x] Поддержка GPT-4
-  - Если у вас есть доступ к API GPT-4, просто измените параметр `OPENAI_MODEL` на `gpt-4`
+- [x] Поддержка GPT-4о
 - [x] Локализация языка бота
   - Доступные языки :brazil: :cn: :finland: :de: :indonesia: :iran: :it: :malaysia: :netherlands: :poland: :ru: :saudi_arabia: :es: :taiwan: :tr: :ukraine: :gb: :uzbekistan: :vietnam:
 - [x] Улучшенная поддержка встроенных запросов для групповых и личных чатов - от [@bugfloyd](https://github.com/bugfloyd)
